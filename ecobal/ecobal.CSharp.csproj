@@ -63,12 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Balloon_Contoroller.cs" />
-    <Compile Include="Assets\Script\Bullet_Contoller.cs" />
-    <Compile Include="Assets\Script\Camera_Chase.cs" />
-    <Compile Include="Assets\Script\Player_Move.cs" />
-    <Compile Include="Assets\Script\Player_Shoot.cs" />
-    <Compile Include="Assets\Script\Time2Death.cs" />
+    <Compile Include="Assets\Script\Hayashi\Balloon_Contoroller.cs" />
+    <Compile Include="Assets\Script\Hayashi\Bullet_Contoller.cs" />
+    <Compile Include="Assets\Script\Hayashi\Camera_Chase.cs" />
+    <Compile Include="Assets\Script\Hayashi\Player_Move.cs" />
+    <Compile Include="Assets\Script\Hayashi\Player_Shoot.cs" />
+    <Compile Include="Assets\Script\Hayashi\Time2Death.cs" />
+    <Compile Include="Assets\Script\Hayashi\title_Controller.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

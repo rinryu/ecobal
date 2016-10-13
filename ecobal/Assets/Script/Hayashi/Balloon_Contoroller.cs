@@ -17,9 +17,9 @@ public class Balloon_Contoroller : MonoBehaviour {
 
     void DestroyObject()
     {
-        Instantiate(deathEffect, transform.position, transform.rotation);
         Destroy(gameObject);
-        
+        Instantiate(deathEffect, transform.position, transform.rotation);
+
 
     }
 }
